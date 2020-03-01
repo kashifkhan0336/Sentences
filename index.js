@@ -16,7 +16,8 @@ app.use(bodyParser.json());
 
 app.get('/sentences', (req, res) => {
     Sentence(req.query.word, req.query.amount).then(function(value) {
-        res.json({
+        res.json({+.
+
             Sentences : value
         });
     })
@@ -78,4 +79,4 @@ console.log(Sentence("sit", 2).then(function (value) {
     console.log(value)
 }))
 */
-app.listen(port, () => console.log(`Hello world app listening on port ${port}!`));
+app.listen();
