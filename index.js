@@ -23,6 +23,9 @@ app.get('/sentences', (req, res) => {
 
 });
 
+app.get("/", (req, res) => {
+	res.send("Ok")
+})
 
 
 
