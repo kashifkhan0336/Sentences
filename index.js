@@ -16,7 +16,7 @@ app.use(bodyParser.json());
 
 app.get('/sentences', (req, res) => {
     Sentence(req.query.word, req.query.amount).then(function(value) {
-        res.json({+.
+        res.json({
 
             Sentences : value
         });
